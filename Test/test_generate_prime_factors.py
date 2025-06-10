@@ -6,3 +6,6 @@ def test_integer_check():
 
 def test_result_one():
     assert generate_prime_factors(1) == []
+
+def test_result_two():
+    assert generate_prime_factors(2) == [2]
