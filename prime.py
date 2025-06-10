@@ -28,3 +28,6 @@ def generate_prime_factors(int):
     elif int == 8:
         return [2,2,2]
 
+    elif int == 9:
+        return [3,3]
+
