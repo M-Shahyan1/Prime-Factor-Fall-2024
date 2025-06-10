@@ -9,3 +9,7 @@ def generate_prime_factors(int):
         pass
     except TypeError:
         return ValueError
+
+    if int == 1:
+        return []
+
